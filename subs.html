@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css files/videos.css">
+    <link rel="stylesheet" href="css files/subs.css">
     <title>Home</title>
 </head>
 
@@ -20,9 +19,9 @@
                 <span class="bar"></span>
             </div>
             <ul class="menu">
-                <a href="index.html"><li class="items" style="background-color: #373737;"><i class='bx bx-home-alt'></i><a href="#" class="links"> Home </a></li></a>
+                <a href="index.html"><li class="items"><i class='bx bx-home-alt'></i><a href="index.html" class="links"> Home </a></li></a>
                 <a href="ex.html"><li class="items"><i class='bx bx-compass'></i><a href="#" class="links"> Explore </a></li></a>
-                <a href="subs.html"><li class="items"><i class='bx bx-slideshow'></i><a href="#" class="links"> Subscription </a></li></a>
+                <a href="subs.html"><li class="items" style="background-color: #373737;"><i class='bx bx-slideshow'></i><a href="#" class="links"> Subscription </a></li></a>
                 <a href="lib.html"><li class="items"><i class='bx bx-library'></i><a href="lib.html" class="links"> Library </a></li></a>
             </ul>
         </nav>
@@ -35,7 +34,6 @@
                 </div>
                 <div class="search"><textarea name="textarea_search" id="textarea" cols="30" rows="10"></textarea><i
                         class='bx bx-search'></i></div>
-                <!-- <div class="mic"><i class='bx bxs-microphone' ></i></div> -->
                 <div class="profile">
                     <ul>
                         <li><i class='bx bx-video-plus'></i></li>
@@ -45,40 +43,16 @@
                     </ul>
                 </div>
             </div>
-            <div class="banner">
-
-            </div>
-            <div class="channel">
-                <div class="profile-photo">
-                    <img src="images/Abloh.jpg" class="abloh" alt="">
-                    <div class="writing">
-                        <h5>Abhishek Patel</h5>
-                        <p class="subs">2.5M subscribers</p>
-                    </div>
-                </div>
-                <div class="manage">
-                    <div class="custom"> CUSTOMISE CHANNEL </div>
-                    <div class="custom"> MANAGE VIDEOS </div>
-                </div>
-            </div>
-            <div class="mid-menu">
+            <div class="duration">
+                <div class="day"> Today </div>
                 <ul>
-                    <li class="mid-link"><a href="index.html">HOME</a> </li>
-                    <li class="mid-link" style="border-bottom: 4px solid #9a9a9a;"><a href="videos.html"
-                            style="color: white;">VIDEOS</a></li>
-                    <li class="mid-link"><a href="play.html">PLAYLISTS</a></li>
-                    <li class="mid-link"><a href="channel.html">CHANNEL</a></li>
-                    <li class="mid-link"><a href="about.html">ABOUT</a></li>
-                    <li class="mid-link"><i class='bx bx-search'></i></li>
+                    <li style="color: #3ea6ff;">MANAGE</li>
+                    <li><i class='bx bxs-grid-alt'></i></li>
+                    <li><i class='bx bx-list-ul' ></i></li>
                 </ul>
             </div>
-            <div class="upload">
-                <p id="up"> Uploads</p>
-                <i class='bx bx-play'></i>
-                <p id="play">PLAY ALL</p>
-            </div>
 
-            <!-- first row -->
+            <!-- First Row  -->
             <div class="bottom">
                 <div class="video">
                     <div class="pic">
@@ -91,6 +65,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">185K views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -105,6 +80,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">201K views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -119,6 +95,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">256K views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -133,6 +110,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">144K views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -146,10 +124,19 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">202K views &bull; 1 year ago</p>
                     </div>
                 </div>
+            </div>
 
+            <div class="duration" style="margin-top: -30px;">
+                <div class="day"> Yesterday </div>
+            </div>
+
+            <!-- Second row  -->
+
+            <div class="bottom">
                 <div class="video">
                     <div class="pic">
                         <img src="images/cod7.jpg" alt="" class="thumb">
@@ -160,15 +147,10 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">1.3M views &bull; 1 year ago</p>
                     </div>
                 </div>
-
-
-            </div>
-
-            <!-- Second Row  -->
-            <div class="bottom">
                 <div class="video">
                     <div class="pic">
                         <img src="images/cod6.jpg" alt="" class="thumb">
@@ -180,6 +162,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">905K views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -194,6 +177,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">888K views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -208,6 +192,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">758K views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -222,6 +207,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">845K views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -235,10 +221,14 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">702K views &bull; 1 year ago</p>
                     </div>
                 </div>
+            </div>
 
+            <!-- Third Row  -->
+            <div class="bottom">
                 <div class="video">
                     <div class="pic">
                         <img src="images/cod1.jpg" alt="" class="thumb">
@@ -249,12 +239,18 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">1.3M views &bull; 1 year ago</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Third Row  -->
+            <div class="duration" style="margin-top: -30px;">
+                <div class="day"> This week </div>
+            </div>
+
+            <!-- Fourth row  -->
+
             <div class="bottom">
                 <div class="video">
                     <div class="pic">
@@ -266,6 +262,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">1.6M views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -280,6 +277,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">975K views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -294,6 +292,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">2.9M views &bull; 1 year ago</p>
                     </div>
                 </div>
@@ -308,6 +307,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">545K views &bull; 2 year ago</p>
                     </div>
                 </div>
@@ -321,6 +321,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">325K views &bull; 2 year ago</p>
                     </div>
                 </div>
@@ -335,13 +336,13 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">1.3M views &bull; 2 year ago</p>
                     </div>
                 </div>
             </div>
 
-
-            <!-- Fourth Row  -->
+            <!-- fifith Row  -->
             <div class="bottom">
                 <div class="video">
                     <div class="pic">
@@ -353,6 +354,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">1.6M views &bull; 2 year ago</p>
                     </div>
                 </div>
@@ -367,6 +369,7 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">975K views &bull; 2 year ago</p>
                     </div>
                 </div>
@@ -381,16 +384,16 @@
                         <i class='bx bx-dots-vertical-rounded'></i>
                     </div>
                     <div class="out">
+                        <p class="views2">Abhishek Patel <i class='bx bxs-check-circle' style='color:#9a9a9a'  ></i></p>
                         <p class="views">2.9M views &bull; 2 year ago</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
     <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
-    <script src="js/videos.js"></script>
+    <script src="js/subs.js"></script>
 </body>
 
 </html>
